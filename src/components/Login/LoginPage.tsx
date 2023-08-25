@@ -1,6 +1,11 @@
 import React from 'react';
-import Button from '../../stories/Button';
 import Input from '../Input/Input';
+import { Button } from '../../stories/Button';
+
+interface LoginPageProps {
+  title: string;
+  
+}
 
 const LoginPage: React.FC = () => {
   const handleLogin = () => {
